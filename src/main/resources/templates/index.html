@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Welcome to CodeJava Home</title>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css" />
+
+</head>
+<body>
+    
+    <div class="container text-center">
+    	<div>
+        	<h3>Welcome to User login-reg website!</h3>
+    	</div>
+    	<div>
+        	<h5><a th:href="@{/list_users}">List of all Users</a></h5>
+			<h5><a th:href="@{/register}">Register</a></h3>
+			<h5><a th:href="@{/login}">Login</a></h5>
+    	</div>
+    </div>
+     
+</body>
+</html>
